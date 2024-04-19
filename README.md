@@ -16,9 +16,6 @@ Este proyecto es una colección de recursos y ejercicios para el curso de Desarr
 
 [WebI - Sitio Web](https://luism711.github.io/web1/)
 
-## Contribución
-
-¡Siéntete libre de contribuir a este proyecto! Si tienes alguna sugerencia, corrección o recurso que te gustaría agregar, ¡abre una solicitud de extracción y hagamos que este proyecto sea aún mejor juntos!
 
 ## Licencia
 

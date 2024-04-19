@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/gif" href="favicon.gif">
+</head>
+
+<body>
+    <img src="Apple-Logo.png" id="logo" alt="">
+    <div id="calculadora">
+        <div id="display">
+            <div id="displayInput">0</div>
+        </div>
+        <div id="teclado">
+            <button class="tecla gris" id="clear" onclick="clearDisplay()">AC</button>
+            <button class="tecla naranja" onclick="addMasMenos()">+/-</button>
+            <button class="tecla naranja" onclick="addPorcentaje()">%</button>
+            <button class="tecla naranja" onclick="addOperator('/')">÷</button>
+            <button class="tecla" onclick="addNumber(7)">7</button>
+            <button class="tecla" onclick="addNumber(8)">8</button>
+            <button class="tecla" onclick="addNumber(9)">9</button>
+            <button class="tecla naranja" onclick="addOperator('*')">x</button>
+            <button class="tecla" onclick="addNumber(4)">4</button>
+            <button class="tecla" onclick="addNumber(5)">5</button>
+            <button class="tecla" onclick="addNumber(6)">6</button>
+            <button class="tecla naranja" onclick="addOperator('-')">-</button>
+            <button class="tecla" onclick="addNumber(1)">1</button>
+            <button class="tecla" onclick="addNumber(2)">2</button>
+            <button class="tecla" onclick="addNumber(3)">3</button>
+            <button class="tecla naranja" onclick="addOperator('+')">+</button>
+            <button class="tecla tecla-doble" onclick="addNumber(0)">0</button>
+            <button class="tecla" onclick="addPunto()">.</button>
+            <button class="tecla" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import 'normalize.css';
+
+body {
+    font-family: Arial, sans-serif;
+}
+.dark {
+    background-color: #0d241e;
+    color: white;
+
+}
+#imgConvocatoria,
+#imgMexico,
+#imgCalderon {
+    width: 200px;
+    height: 200px;
+}
+
+#logoEjercito,
+#logoFamex {
+    width: 200px;
+
+}
+
+#tres {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+section>img {
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #3ebe9e;
+    width: 33% ;
+}
+
+nav {
+    background-color: #084e18;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#logoEjercito {
+    width: 100px;
+    height: auto;
+}
+
+#textoHeader {
+    font-size: 16px;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+#logofamex {
+    width: 100%;
+    height: auto;
+}
+
+#textoFooter {
+    font-size: 16px;
+    margin-right: auto;
+}
+.container {
+    margin: 0 10% 0 10%;
+}

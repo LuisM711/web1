@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 blackjack</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/gif" href="favicon.gif">
+</head>
+
+<body>
+    <div class="container">
+        <div id="botones">
+            <input type="button" value="Nuevo juego" onclick="location.reload();">
+            <input type="button" id="btPedir" value="Pedir carta" onclick="pedir();">
+            <input type="button" value="Detener" onclick="detener();">
+        </div>
+        <div id="jugador">
+            <h2 id="jugadorH2">Jugador</h2>
+        </div>
+        <div id="computadora">
+            <h2 id="computadoraH2">Computadora</h2>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+@import 'normalize.css';
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4cb6ac;
+}
+body > * {
+    position: absolute;
+    border: 2px solid;
+    font-size: 26px;
+}
+p {
+    padding: 10px;
+}
+h1 {
+    background-color: white;
+    top: 10%;
+    width: 90%;
+    left: 5%;
+}
+#m1 {
+    background-color: #dbc9a5;
+    top: 18%;
+    left: 18%;
+    width: 70%;
+    height: 6%;
+}
+#m2 {
+    background-color: #92ff92;
+    top: 40%;
+    left: 24%;
+    width: 45%;
+    height: 21%;
+    z-index: 1;
+}
+#m3 {
+    background-color: #feffb3;
+    top: 30%;
+    left: 7%;
+    width: 40%;
+    height: 20%;
+}
+#m4 {
+    background-color: #c5ffff;
+    top: 30%;
+    right: 5%;
+    height: 20%;
+    width: 45%;
+}
+#m5 {
+    background-color: #ffe5ff;
+    top: 54%;
+    width: 40%;
+    left: 7%;
+    height: 20%;
+}
+#m6 {
+    background-color: #feb4b3;
+    top: 54%;
+    right: 5%;
+    width: 45%;
+    height: 20%;
+}

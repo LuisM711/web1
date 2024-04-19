@@ -1,0 +1,27 @@
+@import 'normalize.css';
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1fff0;
+}
+.seccion1 {
+    margin: 5% 5%;
+    display: flex;
+    gap: 10px;
+}
+.seccion1 > .ejercicio {
+    border: 1px solid;
+}
+.p1, .p2 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.p1{
+    font-size: 40px;
+}
+.p2{
+    font-size: 80px;
+}
+.p3 {
+    margin: 0 10px;
+}

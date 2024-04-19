@@ -1,0 +1,45 @@
+@import 'normalize.css';
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+#resultados h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#resultados ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+#resultados li {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#resultados img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#resultados h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#resultados p {
+    margin: 0;
+}

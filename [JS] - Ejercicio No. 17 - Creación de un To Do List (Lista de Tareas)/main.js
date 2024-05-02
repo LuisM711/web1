@@ -29,7 +29,7 @@ const borrar = (tarea = "") => {
     elementosLi.forEach(li => {
         const textoLi = li.textContent;
         if (textoLi.includes(tarea)) {
-            li.innerHTML = `<del>${tarea}</del><span>${tarea}</span>`;
+            li.innerHTML = `<del>${tarea}</del>`;
         }
     });
 

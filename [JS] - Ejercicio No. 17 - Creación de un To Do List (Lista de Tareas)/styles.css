@@ -1,0 +1,46 @@
+@import 'normalize.css';
+body {
+    font-family: Arial, sans-serif;
+}
+#inputTarea {
+    width: calc(80% - 4px);
+    box-sizing: border-box;
+}
+
+#btnTarea {
+    width: calc(20% - 4px);
+    box-sizing: border-box;
+}
+
+#inputTarea, #btnTarea {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tareas {
+    list-style: none;
+    padding: 0;
+}
+#tareas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#tareas li:last-child {
+    border-bottom: none;
+}
+#tareas li span {
+    flex-grow: 1;
+}
+#tareas li button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#tareas li button:hover {
+    background-color: #c00;
+}
